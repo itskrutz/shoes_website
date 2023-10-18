@@ -72,3 +72,83 @@ section nav .icons i{
 section nav .icons i:hover{
     color:#c72092;
 }
+
+section .main .main_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main .main_content .main_text h1{
+    font-size: 90px;
+    line-height: 75px;
+    font-family: "Pyxidium Quick V2";
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+    top:45px;
+    left: 5%;
+}
+
+section .main .main_content .main_text h1 span{
+    font-size: 70px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section .main .main_content .main_text p{
+    width:600px;
+    line-height: 21px;
+    text-align: justify;
+    position:relative;
+    top: 85px;
+    left: 5%;
+}
+
+section .main .main_content .main_image img{
+    width:600px;
+    position:relative;
+    top:75px;
+    left:20px; 
+}
+ section .main .socials_icons {
+    position:absolute;
+    top:50%;
+    left:98%;
+    font-size: 19px;
+ }
+
+ section .main .socials_icons i{
+    margin:7px 0;
+    transition: 0.3s;
+    cursor:pointer;
+ }
+
+ section .main .socials_icons i:hover{
+    color:#c72092;
+ }
+
+ section .main .button{
+    position:absolute;
+    left:6%;
+    padding: 10px 30px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    border-radius: 30px;
+ }
+
+ section .main .button a{
+    color:white;
+    text-decoration: none;
+}
+
+section .main .button i{
+    color:white;
+    margin-left:5px;
+    transition:0.3s;
+}
+
+section .main .button:hover i{
+    transform: translateX(6px);
+}
