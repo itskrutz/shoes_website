@@ -303,6 +303,50 @@
         </div>
     </div>
 
+        <!--About Section-->
+    <div class="about" id="About">
+        <h1>Web<span>About</span></h1>
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="./images/red_shoes1.png" onclick="functio(this)">
+                    <img src="./images/red_shoes2.png" onclick="functio(this)">
+                    <img src="./images/red_shoes3.png" onclick="functio(this)">
+                    <img src="./images/red_shoes4.png" onclick="functio(this)">
+                </div>
+
+                <div class="image_container">
+                    <img src="./images/red_shoes1.png" id="imagebox">
+                </div>
+            </div>
+
+            <div class="main_text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae eum reiciendis 
+                    autem illum aperiam repellendus quasi, cupiditate beatae fugiat hic quas sapiente animi 
+                    accusamus corrupti aut explicabo, provident tenetur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae eum reiciendis 
+                    autem illum aperiam repellendus quasi, cupiditate beatae fugiat hic quas sapiente animi 
+                    accusamus corrupti aut explicabo, provident tenetur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae eum reiciendis 
+                    autem illum aperiam repellendus quasi, cupiditate beatae fugiat hic quas sapiente animi 
+                    accusamus corrupti aut explicabo, provident tenetur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae eum reiciendis 
+                </p>
+            </div>
+        </div>
+
+        <a href="#" id="btn1">SHOP NOW</a>
+
+        <script>
+            function functio(small){
+            var full =document.getElementById("imagebox");
+            full.src = small.src;
+            }
+        </script>
+    </div>
+
 
 </body>
 </html>
