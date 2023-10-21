@@ -361,3 +361,37 @@ section .main .button:hover i{
     color:black;
 }
 
+/*Reviews Section*/
+
+.reviews{
+    width:100%;
+    padding:25px 0;
+    margin-top: 250px;
+}
+
+.reviews h1{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.reviews h1 span{
+    margin-left: 25px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reviews .review_box{
+    width:90%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
+}
+
+.reviews .review_box .review_card{
+    width:400px;
+    
+
+}
