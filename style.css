@@ -163,8 +163,9 @@ section .main .button:hover i{
     margin:50px;
     text-align: center;
     background: linear-gradient(to right, #c72092, #6c14d0);
-    -webkit-background-clip: text;
+    -webkit-background-clip:text ;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 .products .box{
@@ -261,4 +262,102 @@ section .main .button:hover i{
     color:white;
 }
 
+/*About Section*/
+
+.about{
+    width:100%;
+    height:100vh;
+    padding:35px 0;
+}
+
+.about h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    align-items: center;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.about .about_main .about_image .about_small_image img{
+    width:130px;
+    opacity: 0.8;
+    margin: 3px;
+    max-width:100%;
+    background: linear-gradient(to right, #6c14d0 , #c72092);
+    border-radius: 10px;
+    padding:8px;
+    cursor: pointer;   
+}
+
+.about .about_main{
+    display: flex;
+}
+
+.about .about_main .about_image .about_small_image{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+   
+}
+
+.about .about_main .about_image .image_container{
+    display: flex;
+    height:500px;
+    margin:7px;
+    position:relative;
+    left:140px;
+    bottom:425px;
+    
+}
+
+.about .about_main .about_image .image_container img{
+    height:430px;
+    max-width:100%;
+    padding:20px;
+    border:#6c14d0 2px solid;
+    box-shadow: 0 0 8px #6c14d0;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.about .about_main .main_text{
+    display: flex;
+    width:480px;
+    height:360px;
+    position: relative;
+    left:150px;
+    top:20px;
+    border:#c72092 2px solid;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #6c14d0;
+}
+
+.about .about_main .main_text p{
+    color:#6c14d0;
+    font-size: 16px;
+    line-height: 21px;
+    background: linear-gradient(to right, #6c14d0,#c72092);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+
+.about a{
+    position:relative;
+    bottom:410px;
+    left:47%;
+    text-decoration: none;
+    border:#c72092 2px solid;
+    padding: 10px 20px;
+    box-shadow: 0 0 8px #c72092;
+    color:black;
+}
 
